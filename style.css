@@ -7,8 +7,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
-    font-family: Product Sans;
+    box-sizing: border-box;
+    font-family: "Product Sans";
 }
 
 html,
@@ -38,6 +38,7 @@ body {
 
 .Banner {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
