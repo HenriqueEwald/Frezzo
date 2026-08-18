@@ -16,12 +16,3 @@ body {
     height: 100%;
 }
 
-#main {
-  background-color: #0a0a0a;
-  background-image: radial-gradient(
-    circle at 15% 20%,
-    rgba(180, 130, 20, 0.35) 0%,
-    rgba(90, 60, 10, 0.15) 25%,
-    rgba(10, 10, 10, 0) 60%
-  );
-}
