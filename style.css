@@ -21,16 +21,6 @@ body {
     height: 100vh;
 }
 
-.nav-container {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 10vh;
-    z-index: 99;
-}
-
 .nav-menu {
     display: flex;
     gap: 50px;
