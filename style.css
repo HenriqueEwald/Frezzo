@@ -65,3 +65,8 @@ body {
 .Banner h1 {
     margin-top: 5%;
 }
+
+.Banner img {
+    width: 500px;
+    
+}
