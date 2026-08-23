@@ -3,38 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-    <title>Frezzo</title>
+    <title>FREZZO — Economize. Consciente. Salve o planeta.</title>
   </head>
   <body>
-    <div id="main">
-      <nav class="nav-container">
-        <a href="#">Logo</a>
-        <div class="nav-menu">
-          <a href="#">Problema</a>
-          <a href="#">Solução</a>
-          <a href="#">Funcionalidades</a>
-          <a href="#">Baixar App</a>
+
+    <!--Seção NAV do site-->
+    <nav id="nav">
+      <div clas="nav-inner">
+        <div class="nav-logo">FREZZO<span>.</span></div>
+        <div class="nav-links">
+          <a href="#problema">Problema</a>
+          <a href="#solucao">Solução</a>
+          <a href="#Funcionalidades">Funcionalidades</a>
+          <button clas="nav-btn">Baixar App</button>
         </div>
-      </nav>
-            <div class="Banner">
-                <h1>FREZZO</h1>
-                 <br />
-                <br />
-            <div class="two">
-                <p>Economize.</p>
-                <p><span class="destaque">Consciente.</span></p>
-                <p>Salve o</p>
-                <p>planeta.</p>
-            </div>
-         <img id="capa" src="img\foto capa.jpg" />
-        <p>
-          Conectamos você a supermercados locais com produtos próximos à data de
-          validade, com descontos progressivos e em tempo real.
-        </p>
-        <button>Baixar Gratuitamente -></button>
-        <button>Cadastrar Estabelecimento</button>
+        <button class="nav-hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
       </div>
-    </div>
+      <div class="nav-mobile" id="nav-mobile">
+        <a href="#problema" class="nav-link-m">Problema</a>
+        <a href="#solucao" class="nav-link-m">Solução/a>
+        <a href="#funcionalidades" class="nav-link-m">Funcionalidades</a>
+        <button clas="nav-btn">Baixar App</button>
+      </div>
+    </nav>
+
+    <!--Seção HERO/primeira página do site-->
+    <section id="hero">
+      <div class="hero-text-bg">
+        <span class="hero-letter hero-letter-left">FRE</span>
+        <span class="hero-letter hero-letter-right">ZZP</span>
+      </div>
+    </section>
   </body>
 </html>
